@@ -170,7 +170,7 @@ img {
 
 @media (min-width: 1024px) {
     .layout_padding {
-        padding-top: 90px;
+        padding-top: 40px;
         padding-bottom: 0px;
     }
 }
@@ -192,7 +192,7 @@ img {
     /* background-image: url(../images/banner-bg.png); */
     /* background-image: url(../images/img-1.jpeg); */
     height: auto;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     overflow: hidden;
     background-size: cover;
     padding-bottom: 90px;
@@ -234,8 +234,17 @@ img {
 }
 
 .logo {
-    width: 70%;
+    width: 6vh;
     float: left;
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 8vh;
+    }
+    .img-1-container {
+        max-height: 60vh;
+    }
 }
 
 .banner_taital {
@@ -245,7 +254,7 @@ img {
     color: #060303;
     font-weight: bold;
     line-height: 100px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 
 .banner_text {
@@ -256,6 +265,7 @@ img {
     margin-left: 0px;
     padding: 10px 0;
     font-weight: 600;
+    line-height: inherit;
 }
 
 .read_bt {
